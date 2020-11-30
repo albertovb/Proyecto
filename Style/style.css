@@ -486,11 +486,11 @@ a.contact:hover {
 #first_course_A {
     border: rgb(109, 66, 41, 0.658) 5px solid;
     border-radius: 5px;
-    width: 300px;
-    height: 300px;
-    margin-left: 25px;
+    width: 250px;
+    height: 250px;
+    margin-left: 75px;
     margin-bottom: 40px;
-    margin-top: -225px;
+    margin-top: -250px;
 }
 
 #first_course {
@@ -498,21 +498,21 @@ a.contact:hover {
     border-radius: 5px;
     background-color: #f0ebe1;
     width: 700px;
-    height: 300px;
+    height: 250px;
     margin-left: 500px;
     margin-bottom: 40px;
-    margin-top: -350px;
+    margin-top: -300px;
     text-align: center;
 }
 
 #first_course_B {
     border: rgb(109, 66, 41, 0.658) 5px solid;
     border-radius: 5px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin-left: 1350px;
     margin-bottom: 40px;
-    margin-top: -350px;
+    margin-top: -300px;
 }
 
 /* Second Course */
@@ -520,9 +520,9 @@ a.contact:hover {
 #second_course_A {
     border: rgb(109, 66, 41, 0.658) 5px solid;
     border-radius: 5px;
-    width: 300px;
-    height: 300px;
-    margin-left: 25px;
+    width: 250px;
+    height: 250px;
+    margin-left: 75px;
     margin-bottom: 40px;
     margin-top: 75px;
 }
@@ -532,21 +532,21 @@ a.contact:hover {
     border-radius: 5px;
     background-color: #f0ebe1;
     width: 700px;
-    height: 300px;
+    height: 250px;
     margin-left: 500px;
     margin-bottom: 40px;
-    margin-top: -350px;
+    margin-top: -300px;
     text-align: center;
 }
 
 #second_course_B {
     border: rgb(109, 66, 41, 0.658) 5px solid;
     border-radius: 5px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin-left: 1350px;
     margin-bottom: 40px;
-    margin-top: -350px;
+    margin-top: -300px;
 }
 
 /* Desert */
@@ -554,9 +554,9 @@ a.contact:hover {
 #desert_A {
     border: rgb(109, 66, 41, 0.658) 5px solid;
     border-radius: 5px;
-    width: 300px;
-    height: 300px;
-    margin-left: 25px;
+    width: 250px;
+    height: 250px;;
+    margin-left: 75px;
     margin-bottom: 40px;
     margin-top: 75px;
 }
@@ -566,21 +566,21 @@ a.contact:hover {
     border-radius: 5px;
     background-color: #f0ebe1;
     width: 700px;
-    height: 300px;
+    height: 250px;
     margin-left: 500px;
     margin-bottom: 40px;
-    margin-top: -350px;
+    margin-top: -300px;
     text-align: center;
 }
 
 #desert_B {
     border: rgb(109, 66, 41, 0.658) 5px solid;
     border-radius: 5px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin-left: 1350px;
     margin-bottom: 40px;
-    margin-top: -350px;
+    margin-top: -300px;
 }
 
 /* Drinks and coffe */
@@ -598,9 +598,32 @@ a.contact:hover {
     text-align: center;
 }
 
-/* -----Wines Menu----- */
+/* Dividers */
 
-#wines_list {
+#divider_ini {
+    margin-top: 30px;
+    margin-left: 580px;
+    width: 750px;
+    height: 75px;
+}
+
+#dividers {
+    margin-left: 480px;
+    margin-bottom: -30px;
+    width: 750px;
+    height: 30px;
+}
+
+#divider_end {
+    margin-left: 480px;
+    margin-bottom: -30px;
+    width: 750px;
+    height: 75px;
+}
+
+/* -----Wines, Dishes an Deserts Menu----- */
+
+#wines_dishes_deserts_list {
     border: rgb(109, 66, 41, 0.658) 5px solid;
     border-radius: 5px;
     width: 750px;
@@ -611,17 +634,52 @@ a.contact:hover {
     text-align: center;
 }
 
+#divider_wines_dishes_deserts {
+    margin-top: 30px;   
+    width: 550px;
+    height: 55px;
+}
+
+#divider_wines_dishes_deserts_mid {
+    width: 500px;
+    height: 25px;
+}
+
 /* -----Contact----- */
+
 
 #contact_title {
     margin: auto;
     margin-bottom: 40px;
     margin-top: -225px;
+    text-align: center;
 }
 
 form {
+    padding: 40px 250px 20px 250px;
+    font-size: 125%;
+    margin: 0;
+    display: grid;
+}
+
+#address{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#map{
+    padding: 40px 250px 20px 250px;
+}
+
+iframe{
     margin: auto;
-    margin-bottom: 40px;
+    border: #61290b solid 3px;
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 5px;
+    height: 25px;
 }
 
 #fname, #lname, #email, #subject, #textbox {
