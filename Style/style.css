@@ -1,0 +1,633 @@
+/* Import fonts from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* General CSS */
+
+body {
+    margin: auto;
+    background-color: #f0e5d6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*  We make the header with a fixed image */
+
+header{
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/header.png");
+    background-attachment: fixed;
+    border-bottom: rgba(109, 66, 41, 0.658) 15px outset;
+}
+
+/* Restaurant main icon */
+
+header > a > img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    clear: left;
+    padding-left: 15px;
+}
+
+/* We move the icon to the right */
+
+#icon {
+    margin-top: 15px;
+    float: right;
+}
+
+/* Hover of the icon */
+
+#icon:hover {
+    transition: 0.6s;
+    width: 225px;
+    height: 225px;
+}
+
+/* Nav icon */
+
+#icon2 {
+    width: 60px;
+    height: 60px;
+    margin: -25px;
+    padding-left: 20px;
+}
+
+/* Hover of the nav icon */
+
+#icon2:hover {
+    width: 75px;
+    height: 75px;
+    margin-right: -5px;
+    margin-top: -10px;
+    transition: 0.8s;
+}
+
+/* Nav position */
+
+header nav {
+    float: right;
+    clear: right;
+    padding-right: 15px;
+    margin-top: 15px;
+    position: fixed;
+}
+
+/* Remove the style to the ul and put background */
+
+header > nav > ul {
+    list-style-type: none;
+    background-color: #231107;
+}
+
+/* Menu to the left */
+
+header > nav > ul > li {
+    float: left;
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: #231107;
+}
+
+/* CSS from menu links */
+
+header > nav > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: 0.8s;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Links hover */
+
+.link:hover {
+    background-color: #61290b;
+    transition: 0.8s;
+    font-size: 1.15em;
+    border-bottom: white 3px ridge;
+}
+
+/* Flags CSS */
+
+.flags {
+    margin-top: -5px;
+    width: 22px;
+    height: 22px;
+}
+
+/* CSS for submenus to be hidden */
+
+nav ul ul {
+    display: none;
+}
+
+/* Remove style to the submenu */
+
+nav ul ul li {
+    float: none;
+    list-style: none;
+}
+
+/* Submenu links CSS */
+
+nav ul ul a {
+    display: block;
+    padding: 8px 30px 8px 8px;
+    background-color: #231107;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-size: 0.7em;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+/* Submenu links hover */
+
+nav ul ul a:hover {
+    transition: 0.8s;
+    font-size: 0.8em;
+    background-color: #61290b;
+    border-bottom: white 2px ridge;
+}
+
+/* Submenu hover to display */
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+/* Main CSS */
+
+main {
+    margin-top: 180px;
+    padding: 100px;
+}
+
+/* -Page divs- */
+
+/* ------------History------------- */
+
+#history {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 1250px;
+    height: 250px;
+    margin: auto;
+    margin-top: -225px;
+    margin-bottom: 40px;
+    background-image: url(../img/history.jpg);
+    color:#ffffff;
+    word-spacing: 2px;
+}
+
+/* Remove "link style" form text */
+
+#link_history {
+    text-decoration: none;
+}
+
+/* H2 CSS */
+
+.titles {
+    padding: 0 0 0 20px;
+    color: white;
+}
+
+/* Align h2 to the center */
+
+#h2_history{
+    text-align: center;
+    margin: 10px 480px 96px 480px;
+    opacity: 0.8;
+    background-color: black;
+}
+
+/* History hover */
+
+#history:hover {
+    background-position: center left;
+    transition: 0.8s;
+}
+
+/* H2 history hover */
+
+#history:hover > #h2_history {
+    transition: 0.8s;
+    font-weight: bold;
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+    margin: 10px 460px 96px 480px;
+    text-align: center;
+    padding-left: 15px;
+    opacity: initial;
+    font-size: 1.6rem;
+}
+
+/* P history hover */
+
+#history:hover > p {
+    background-color: black;
+    transition: 0.8s;
+    margin: -30px 150px 0px 150px;
+    opacity: initial;
+    font-size: 1.1rem;
+}
+
+/* Text opacity, decoration and position */
+
+#history_text {
+    margin: -20px 100px 10px 100px;
+    padding: 5px;
+    opacity: 0.3;
+}
+
+/* ---------------The menus---------------- */
+
+#list_menu_index {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 1250px;
+    height: 250px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+/* Wines CSS */
+
+#wines_menu {
+    padding: 0 0 0 0;
+    float: right;
+    width: 624px;
+    height: 125px;
+    background-image: url(../img/wines_menu.jpg);
+    background-repeat: no-repeat;
+}
+/* Chef's menu CSS */
+
+#chef_menu {
+    padding: 1px 0 0 0;
+    width: 626px;
+    height: 124px;
+    background-image: url(../img/chef_menu.jpg);
+}
+/* Deserts CSS */
+
+#deserts_menu {
+    padding: 0 0 0 0;
+    float: right;
+    clear: right;
+    width: 624px;
+    height: 125px;
+    background-image: url(../img/deserts_menu.jpg);
+}
+/* Dishes CSS */
+
+#dishes_menu {
+    padding: 1px 0 0 0;
+    width: 626px;
+    height: 125px;
+    background-image: url(../img/dishes_menu.jpg);
+}
+/* Hover for all sections */
+
+.divs:hover {
+    opacity: 0.4;
+    background-position: center center;
+    transition: 0.8s;
+}
+.divs:hover > h2 {
+    color: black;
+    font-weight: bold;
+}
+/* Links decoration remove */
+
+.general_div > a {
+    text-decoration: none;
+}
+/* H2 hover in any div */
+
+.divs:hover > .titles {
+    transition: 0.8s;
+    font-weight: bold;
+    text-align: left;
+    background-color: white;
+    margin: 96px auto auto auto;
+}
+
+/* ----------------Events------------------- */
+
+#events {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 1250px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+/* Wine Tasting CSS */
+
+#wine_tasting {
+    padding: 0 0 0 0;
+    float: right;
+    width: 624px;
+    height: 125px;
+    background-image: url(../img/wine_tasting.jpg);
+}
+
+/* Tapas Tasting CSS */
+
+#tapas_tasting {
+    padding: 1px 0 0 0;
+    width: 626px;
+    height: 124px;
+    background-image: url(../img/tapas_tasting.jpg);
+}
+
+/* Thematic Nights CSS */
+
+#thematic_nights {
+    padding: 0 0 0 0;
+    float: right;
+    clear: right;
+    width: 624px;
+    height: 125px;
+    background-image: url(../img/Themed_night.webp);
+}
+
+/* Festivities CSS */
+
+#festivities {
+    padding: 1px 0 0 0;
+    width: 626px;
+    height: 125px;
+    background-image: url(../img/festivities.jpg);
+}
+
+/* ----------------Orders and bookins------------------- */
+
+#orders_bookings {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 1250px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+/* Orders CSS */
+
+#orders {
+    padding: 0 0 0 0;
+    width: 622px;
+    height: 251px;
+    float: right;
+    clear: right;
+    background-image: url(../img/orders.jpg);
+}
+
+/* Bookings CSS */
+
+#bookings {
+    padding: 1px 0 0 0;
+    float: none;
+    width: 628px;
+    height: 249px;
+    background-image: url(../img/Bookings.png);
+}
+
+/* Remove links decoration */
+
+.no_deco {
+    text-decoration: none;
+}
+
+/* Background images hover */
+
+.divs_2:hover {
+    opacity: 0.6;
+    transition: 0.8s;
+    background-position: center center;
+}
+
+/* Text titles hover  */
+
+.divs_2:hover > .titles {
+    transition: 0.8s;
+    font-weight: bold;
+    text-align: left;
+    background-color: white;
+    margin: 221px auto auto auto;
+    color: black;
+}
+
+/* ----------------CSS footer---------------- */
+
+footer {
+    background-color: #231107;
+}
+
+/* Posicion footer */
+
+ul.social_networks {
+    margin-left: -15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: auto;
+}
+
+/* Social networks CSS */
+
+ul.social_networks li {
+    padding: 5px;
+    display:inline;
+    list-style: none;
+}
+
+ul.social_networks li img {
+    width: 35px;
+    height: 35px;
+}
+
+/* Contact link CSS */
+
+a.contact {
+    float: right;
+    background-color: #231107;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em; 
+}
+
+/* Contact hover */
+
+a.contact:hover {
+    background-color: #61290b;
+    color: white;
+    text-decoration: none;
+    transition: 0.8s;
+    font-size: 1.3em;
+    border-bottom: white 3px ridge;   
+}
+
+/* ----------------Secondary Pages---------------- */
+
+/* -----Chef Menu----- */
+
+/* First Course */
+
+#first_course_A {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    margin-top: -225px;
+}
+
+#first_course {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    background-color: #f0ebe1;
+    width: 700px;
+    height: 300px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    margin-top: -350px;
+    text-align: center;
+}
+
+#first_course_B {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 1350px;
+    margin-bottom: 40px;
+    margin-top: -350px;
+}
+
+/* Second Course */
+
+#second_course_A {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    margin-top: 75px;
+}
+
+#second_course {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    background-color: #f0ebe1;
+    width: 700px;
+    height: 300px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    margin-top: -350px;
+    text-align: center;
+}
+
+#second_course_B {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 1350px;
+    margin-bottom: 40px;
+    margin-top: -350px;
+}
+
+/* Desert */
+
+#desert_A {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    margin-top: 75px;
+}
+
+#desert {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    background-color: #f0ebe1;
+    width: 700px;
+    height: 300px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    margin-top: -350px;
+    text-align: center;
+}
+
+#desert_B {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 1350px;
+    margin-bottom: 40px;
+    margin-top: -350px;
+}
+
+/* Drinks and coffe */
+
+
+#drinks_coffee {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    background-color: #f0ebe1;
+    width: 850px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 75px;
+    text-align: center;
+}
+
+/* -----Wines Menu----- */
+
+#wines_list {
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    width: 750px;
+    height: 1500px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: -225px;
+    text-align: center;
+}
+
+/* -----Contact----- */
+
+#contact_title {
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: -225px;
+}
+
+form {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#fname, #lname, #email, #subject, #textbox {
+    background-color: #F8F2EB;
+}
+
+#fname:focus, #lname:focus, #email:focus, #subject:focus, #textbox:focus {
+    background-color: white;
+}
