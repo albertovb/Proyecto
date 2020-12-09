@@ -646,12 +646,6 @@ a.contact:hover {
 }
 
 /* -----Contact----- */
-
-
-#contact_title {
-    
-}
-
 form {
     border: #61290b solid 2px;
     border-radius: 5px;
@@ -663,14 +657,17 @@ form {
 }
 
 #contact_form{
-    margin-top: -161px;
-    width: 45%; 
+    margin-top: -130px;
+    width: 35%; 
+    padding-left: 50px;
+    height: 400px;
 }
 
 #map{
-    margin-top: -375px;
+    float: right;
+    margin-top: -440px;
     width: 40%;
-    margin-left: 1000px;
+    margin-left: 950px;
     padding-bottom: 100px;
 }
 
@@ -684,15 +681,52 @@ input{
     margin-top: 5px;
     height: 20px;
 }
+
 .fname{
     float: left;
-    width: 30%;
+    width: 45%;
 }
+
 .lname{
-    width: 40%;
+    width: 48%;
     position: relative;
     top: -38px;
-    left: 50px;
+    left: 26px;
+}
+
+.email{
+    position: relative;
+    top: -35px;
+    width: 99%;
+}
+
+.subject{
+    position: relative;
+    top: -30px;
+    width: 45%;
+}
+
+.textbox{
+    position: relative;
+    width: 99%;
+    top: -30px;
+}
+
+.buttons{
+    position: relative;
+    top: -10px;
+    width: 49%;
+    height: 40px;
+    color: white;
+}
+
+#clear{
+    float: right;
+}
+
+#submit{
+    background-color: rgb(58, 28, 12);
+    border:  rgb(105, 52, 23) solid 2px;
 }
 
 #fname, #lname, #email, #subject, #textbox {
