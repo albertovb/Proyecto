@@ -646,10 +646,35 @@ a.contact:hover {
 }
 
 /* -----Contact----- */
+
+#all{
+    padding-bottom: 150px;
+}
+
+#rest_logo{
+    position: relative;
+    width: 175px;
+    height: 175px;
+    left: 835px;
+    top: 540px;
+    margin-top: -200px;
+    opacity: 0.9;
+}
+
+#rest_logo:hover{
+    transition: 0.6s;
+    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    left: 822px;
+    top: 550px;
+}
+
 form {
     border: #61290b solid 2px;
     border-radius: 5px;
     padding: 10px;
+    overflow: hidden;
 }
 
 #address{
@@ -657,18 +682,17 @@ form {
 }
 
 #contact_form{
-    margin-top: -130px;
+    margin-top: -100px;
     width: 35%; 
-    padding-left: 50px;
+    padding-left: 75px;
     height: 400px;
 }
 
 #map{
     float: right;
-    margin-top: -440px;
+    margin-top: -410px;
     width: 40%;
-    margin-left: 950px;
-    padding-bottom: 100px;
+    padding-right: 50px;
 }
 
 iframe{
@@ -722,11 +746,27 @@ input{
 
 #clear{
     float: right;
+    background-color: rgb(58, 28, 12);
+    border:  rgb(105, 52, 23) solid 2px;
+}
+
+#clear:hover{
+    transition: 0.6s;
+    background-color: rgb(134, 65, 28);
+    cursor: pointer;
+    font-size: 1.1rem;
 }
 
 #submit{
     background-color: rgb(58, 28, 12);
     border:  rgb(105, 52, 23) solid 2px;
+}
+
+#submit:hover{
+    transition: 0.6s;
+    background-color: rgb(134, 65, 28);
+    cursor: pointer;
+    font-size: 1.1rem;
 }
 
 #fname, #lname, #email, #subject, #textbox {
