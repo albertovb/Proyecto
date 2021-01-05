@@ -776,3 +776,127 @@ input{
 #fname:focus, #lname:focus, #email:focus, #subject:focus, #textbox:focus {
     background-color: white;
 }
+/* -----About us----- */
+#div_chefs{
+    width: 65%;
+    height: 500px;
+    background-image: url(../img/chefs.jpg);
+    margin: auto;
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    margin-top: -50px;
+}
+
+#chef_text{
+    opacity: 0;
+    width: 30%;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-align: left;
+    color: white;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#div_chefs:hover > #chef_text{
+    opacity: 1;
+    transition: 0.7s;
+    background-color: rgb(23, 22, 58);
+    margin-left: 10px;
+}
+
+#div_chefs:hover > #h2_chefs{
+    padding-left: 130px;
+    text-decoration: underline;
+    transition: 0.7s;
+}
+
+#h2_chefs{
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+#div_awards{
+    width: 65%;
+    height: 500px;
+    background-image: url(../img/awards.jpg);
+    margin: auto;
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+    border-radius: 5px;
+}
+
+#h2_awards{
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+.awards{
+    opacity: 0;
+    width: 30%;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-top: 50px;
+    text-align: left;
+    color: white;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#div_awards:hover > #h2_awards{
+    padding-left: 75px;
+    text-decoration: underline;
+    transition: 0.7s;
+}
+
+#div_awards:hover > .awards{
+    opacity: 1;
+    transition: 0.7s;
+    background-color: rgb(58, 9, 9);
+    margin-left: 10px;
+}
+
+#h2_gallery{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+#div_gallery{
+    width: 65%;
+    height: 500px;
+}
+
+#images_list{
+    top: 50px;
+    display: inline-flex;
+}
+
+.images{
+    margin: 20px 50px 20px 50px;
+    width: 300px;
+    height: 175px;
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+}
+
+.images:hover{
+    opacity: 0.8;
+    transition: 0.6s;
+}
+
+#videos_list{
+    display: inline-flex;
+}
+
+.videos{
+    margin: 20px 50px 20px 50px;
+    width: 300px;
+    height: 200px;
+    border: rgb(109, 66, 41, 0.658) 5px solid;
+}
+
