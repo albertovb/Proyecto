@@ -900,3 +900,105 @@ input{
     border: rgb(109, 66, 41, 0.658) 5px solid;
 }
 
+/* -----Bookings----- */
+
+#contact_titleB{
+    text-align: center;
+    padding: -70px 0px 30px 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 2rem;
+    color: white;
+
+}
+
+#contact_titleB:hover{
+    text-decoration: underline;
+    font-size: 2.1rem;
+    transition: 0.6s;
+    cursor: default;
+}
+
+#contact_formB{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+#fbookings{
+    height: 400px;
+}
+
+.fnameB{
+    padding-right: 250px;
+}
+
+.lnameB{
+    position: relative;
+    left: 425px;
+    top: -60px;
+}
+
+.emailB{
+    position: relative;
+    top: -45px;
+}
+
+.numberB{
+    position: relative;
+    top: -104px;
+    left: 425px;
+}
+
+.dateB{
+    position: relative;
+    top: -162px;
+    left: 633px;
+}
+
+.textboxB{
+    position: relative;
+    top: -150px;
+}
+
+.buttonsB{
+    position: relative;
+    width: 94%;
+    height: 30px;
+    top: -130px;
+}
+
+#clearB{
+    background-color: rgb(58, 28, 12);
+    border:  rgb(105, 52, 23) solid 2px;
+    color: white;
+}
+
+#clearB:hover{
+    transition: 0.6s;
+    background-color: rgb(134, 65, 28);
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#submitB{
+    background-color: rgb(58, 28, 12);
+    border:  rgb(105, 52, 23) solid 2px;
+    color: white;
+}
+
+#submitB:hover{
+    transition: 0.6s;
+    background-color: rgb(134, 65, 28);
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#fnameB, #lnameB, #emailB, #dateB, #numberB, #textboxB {
+    background-color: #F8F2EB;
+}
+
+#fnameB:focus, #lnameB:focus, #emailB:focus, #dateB:focus, #numberB:focus, #textboxB:focus {
+    background-color: white;
+}
+/* -----Orders----- */
